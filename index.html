@@ -8,6 +8,7 @@
         h1{
             color: blueviolet;
             text-align: center;
+            font-weight: bold;
             font-size: 50px;
         }
         p{
@@ -21,19 +22,35 @@
         body{
             background-color: black;
         }
-        ol{
-            color: white;
+        .basic_link{
+            color: darkorchid;
         }
         li{
             color: orange;
             font-size: 33px;
+            margin-left: 16px;
+        }
+        li a:link, li a:visited{
+            text-decoration: none;
+            color: orange;
+            opacity: 90%;
+        }
+        li a:hover, li a:active{
+            text-decoration: underline;
+            opacity: 100%;
+            
+        }
+        li figure{
+            text-align: center;
         }
         footer{
             color: darkgray;
         }
-        a{
-            color: darkorchid;
+        
+        img{
+            width: 30%;
         }
+        
     </style>
 </head>
 
@@ -43,106 +60,117 @@
         not in ranking order.</p>
     <div>
         <ol>
-            <li>Fight Club
+            <li> 
+                <a href="https://www.imdb.com/title/tt0137523/" target="_blank">Fight Club</a>
                 <div>
                     <figure>
-                        <img src="fightClubPoster.jpeg" alt="Fight Club" style="width: 20%;">
+                        <img src="fightClubPoster.jpeg" alt="Fight Club">
+                        <p>An insomniac office worker and a devil-may-care soap maker form an underground fight club that
+                            evolves into much more.</p>
                     </figure>
-                    <p>An insomniac office worker and a devil-may-care soap maker form an underground fight club that
-                        evolves into much more.</p>
                     
                 </div>
             </li>
-            <li>Good Will Hunting
+            <li>
+                <a href="https://www.imdb.com/title/tt0119217/?ref_=nv_sr_srsg_1" target="_blank">Good Will Hunting</a>
                 <div>
                     <figure>
-                        <img src="goodWillHunting.jpeg" alt="Good Will Hunting" style="width: 20%;">
-                    </figure>
-                    <p>Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist
-                        to find direction in his life.</p>
+                        <img src="goodWillHunting.jpeg" alt="Good Will Hunting" >
+                        <p>Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist
+                            to find direction in his life.</p>
+                    </figure>                    
                 </div>
             </li>
-            <li>Inception
+            <li>
+                <a href="https://www.imdb.com/title/tt1375666/?ref_=nv_sr_srsg_0" target="_blank">Inception</a>
                 <div>
                     <figure>
-                        <img src="inceptionPoster.jpeg" alt="Inception" style="width: 20%;">
+                        <img src="inceptionPoster.jpeg" alt="Inception" >
+                        <p>A thief who steals corporate secrets through the use of dream-sharing technology is given the
+                            inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the
+                            project and his team to disaster.</p>
                     </figure>
-                    <p>A thief who steals corporate secrets through the use of dream-sharing technology is given the
-                        inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the
-                        project and his team to disaster.</p>
                 </div>
             </li>
-            <li>Interstellar
+            <li>
+                <a href="https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_0" target="_blank">Interstellar</a>
                 <div>
                     <figure>
-                        <img src="interstellarPoster.jpeg" alt="Interstellar" style="width: 20%;">
+                        <img src="interstellarPoster.jpeg" alt="Interstellar" >
+                        <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's
+                            survival.</p>
                     </figure>
-                    <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's
-                        survival.</p>
                 </div>
             </li>
-            <li>Requiem for a Dream
+            <li>
+                <a href="https://www.imdb.com/title/tt0180093/?ref_=nv_sr_srsg_0" target="_blank">Requiem for a Dream</a>
                 <div>
                     <figure>
-                        <img src="requiemPoster.jpeg" alt="Requiem for a Dream" style="width:20%;">
+                        <img src="requiemPoster.jpeg" alt="Requiem for a Dream" >
+                        <p>The drug-induced utopias of four Coney Island people are shattered when their addictions run
+                            deep.</p>
                     </figure>
-                    <p>The drug-induced utopias of four Coney Island people are shattered when their addictions run
-                        deep.</p>
                 </div>
             </li>
-            <li>Schindler's List
+            <li>
+                <a href="https://www.imdb.com/title/tt0108052/?ref_=nv_sr_srsg_0" target="_blank">Schindler's List</a>
                 <div>
                     <figure>
-                        <img src="schindlerPoster.jpeg" alt="Schindler's List" style="width: 20%;">
+                        <img src="schindlerPoster.jpeg" alt="Schindler's List">
+                        <p>In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes
+                            concerned for his Jewish workforce after witnessing their persecution by the Nazis.</p>
                     </figure>
-                    <p>In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes
-                        concerned for his Jewish workforce after witnessing their persecution by the Nazis.</p>
                 </div>
             </li>
-            <li>The Last Samurai
+            <li>
+                <a href="https://www.imdb.com/title/tt0325710/?ref_=nv_sr_srsg_0" target="_blank">The Last Samurai</a>
                 <div>
                     <figure>
-                        <img src="theLastSamuraiPoster.jpeg" alt="The Last Samurai" style="width:20%;">
+                        <img src="theLastSamuraiPoster.jpeg" alt="The Last Samurai">
+                        <p>An American military advisor embraces the Samurai culture he was hired to destroy after he is
+                            captured in battle.</p>
                     </figure>
-                    <p>An American military advisor embraces the Samurai culture he was hired to destroy after he is
-                        captured in battle.</p>
                 </div>
             </li>
-            <li>The Prestige
+            <li>
+                <a href="https://www.imdb.com/title/tt0482571/?ref_=nv_sr_srsg_0" target="_blank">The Prestige</a>
                 <div>
                     <figure>
-                        <img src="thePrestigePoster.jpeg" alt="The Prestige" style="width:20%;">
+                        <img src="thePrestigePoster.jpeg" alt="The Prestige">
+                        <p>After a tragic accident, two stage magicians in 1890s London engage in a battle to create the
+                            ultimate illusion while sacrificing everything they have to outwit each other. </p>
                     </figure>
-                    <p>After a tragic accident, two stage magicians in 1890s London engage in a battle to create the
-                        ultimate illusion while sacrificing everything they have to outwit each other. </p>
                 </div>
             </li>
-            <li>Tinker Tailor Soldier Spy
+            <li>
+                <a href="https://www.imdb.com/title/tt0993846/?ref_=nv_sr_srsg_0" target="_blank">The Wolf of Wall Street</a>
                 <div>
                     <figure>
-                        <img src="tinkerTailorPoster.jpeg" alt="Tinker Tailor Soldier Spy" style="width:20%;">
+                        <img src="theWolfOfWallStreetPoster.jpeg" alt="The Wolf of Wall Street" >
+                        <p>Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the
+                            high life to his fall involving crime, corruption and the federal government.</p>
                     </figure>
-                    <p>In the bleak days of the Cold War, espionage veteran George Smiley is forced from semi-retirement
-                        to uncover a Soviet Agent within MI6.</p>
                 </div>
             </li>
-            <li>The Wolf of Wall Street
+            <li>
+                <a href="https://www.imdb.com/title/tt1340800/?ref_=nv_sr_srsg_0" target="_blank">Tinker Tailor Soldier Spy</a>
                 <div>
                     <figure>
-                        <img src="theWolfOfWallStreetPoster.jpeg" alt="The Wolf of Wall Street" style="width:20%;">
+                        <img src="tinkerTailorPoster.jpeg" alt="Tinker Tailor Soldier Spy">
+                        <p>In the bleak days of the Cold War, espionage veteran George Smiley is forced from semi-retirement
+                            to uncover a Soviet Agent within MI6.</p>
                     </figure>
-                    <p>Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the
-                        high life to his fall involving crime, corruption and the federal government.</p>
                 </div>
             </li>
+            
         </ol>
-        <p>Thanks for sticking to the end. If you would like to see the list of my Top 5 books <a href="">click here</a>.
-        <div><a href="#top">Back to the top.</a></div>
+        <p>Thanks for sticking to the end. If you would like to see the list of my Top 5 books <a href="" class="basic_link">click here</a>.
+        <div><a href="#top" class="basic_link">Back to the top.</a></div>
         </p>
     </div>
     <footer>Roko Gligora 2023 &copy;
         <div>Movie descriptions pulled from <a href="https://www.imdb.com" title="Link to the imdb website"
-                target="_blank">IMDB</a></div>
+                target="_blank" class="basic_link">IMDB</a></div>
     </footer>
 </body>
 
