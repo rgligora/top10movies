@@ -8,3 +8,38 @@ p{
     color: white;
     font-size: 18px;
 }
+.intro{
+    color: lightgray;
+    font-size: 18px;
+}
+body{
+    background-color: black;
+}
+.basic_link{
+    color: darkorchid;
+}
+li{
+    color: orange;
+    font-size: 33px;
+    margin-left: 16px;
+}
+li a:link, li a:visited{
+    text-decoration: none;
+    color: orange;
+    opacity: 90%;
+}
+li a:hover, li a:active{
+    text-decoration: underline;
+    opacity: 100%;
+    
+}
+figure{
+    text-align: center;
+}
+footer{
+    color: darkgray;
+}
+
+img{
+    width: 30%;
+}
