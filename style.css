@@ -13,9 +13,7 @@ p{
     color: lightgray;
     font-size: 18px;
 }
-body{
-    background-color: black;
-}
+
 .basic_link{
     color: darkorchid;
 }
@@ -39,6 +37,15 @@ figure{
 }
 footer{
     color: darkgray;
+}
+section{
+    background: rgba(0, 0, 0, 0.8);
+}
+section > p{
+    margin-left: 20px;
+}
+section > div{
+    text-align: center;
 }
 
 img{
