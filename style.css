@@ -1,4 +1,6 @@
-
+body{
+    background-color: black;
+}
 h1{
     color: orange;
     text-align: center;
@@ -38,16 +40,6 @@ figure{
 footer{
     color: darkgray;
 }
-section{
-    background: rgba(0, 0, 0, 0.8);
-}
-section > p{
-    margin-left: 20px;
-}
-section > div{
-    text-align: center;
-}
-
 img{
     width: 30%;
 }
