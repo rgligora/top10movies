@@ -13,7 +13,7 @@ p{
 }
 .intro{
     color: lightgray;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .basic_link{
@@ -59,7 +59,6 @@ img{
         font-size: 450%;
     }
     .intro{
-        font-size: 50px;
+        font-size: 40px !important;
     }
-    
   }
