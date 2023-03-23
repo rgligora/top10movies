@@ -22,7 +22,7 @@ p{
 li{
     color: orange;
     font-size: 33px;
-    margin-left: 16px;
+    margin-left: 5%;
 }
 li a:link, li a:visited{
     text-decoration: none;
