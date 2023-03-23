@@ -50,13 +50,16 @@ img{
         width: 70%;
     }
     p{
-        font-size: 15px;
+        font-size: 26px;
     }
     li{
-        font-size: 44px;
+        font-size: 47px;
     }
     h1{
         font-size: 450%;
+    }
+    .intro{
+        font-size: 20px;
     }
     
   }
